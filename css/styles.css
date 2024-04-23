@@ -127,8 +127,7 @@ border-bottom: 1px solid #E7E9FC;
     }
 
 .hero-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
     }
 
 .section-hero-title {
@@ -160,7 +159,7 @@ border-bottom: 1px solid #E7E9FC;
     padding-left: 32px;
     margin-right: auto;
     margin-left: auto;
-    display: flex;
+    display: block;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -197,7 +196,7 @@ border-bottom: 1px solid #E7E9FC;
     }
 
 .sec-strat-tech-list-item {
-    width: calc((1128-3*24)/4);
+    width: calc((100%-72px)/4);
 }
 
 .sec-strat-tech-title {
@@ -238,13 +237,13 @@ border-bottom: 1px solid #E7E9FC;
 
 .sec-our-team-item {
     align-items: center
-    border-radius: 0 0 4px 4px;
+    border-radius: 0px 0px 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #FFFFFF;
-    width: calc((100%-3*24)/4);
+    width: calc((100%-72px)/4);
 }
 
 .sec-our-team-list-box {
@@ -252,7 +251,8 @@ border-bottom: 1px solid #E7E9FC;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
     margin-top: 32px;
     margin-bottom: 32px;
     margin-right: 16px;
@@ -295,6 +295,18 @@ border-bottom: 1px solid #E7E9FC;
     row-gap: 48px;
 }
 
+.sec-portfolio-item {
+    width: calc((100%-48px)/3);
+}
+
+.sec-portfolio-list-box {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    border-top: none;
+    padding: 32px 16px;
+}
+
 .sec-portfolio-list-title {
     font-weight: 500;
     font-size: 20px;
@@ -309,13 +321,6 @@ border-bottom: 1px solid #E7E9FC;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.sec-portfolio-list-box {
-border-bottom: 1px solid #e7e9fc;
-border-left: 1px solid #e7e9fc;
-border-right: 1px solid #e7e9fc;
-padding: 32px 16px;
 }
 
 /* ==========FOOTER STYLES========== */
