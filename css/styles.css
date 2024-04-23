@@ -46,7 +46,18 @@ img {
     margin-top: 0;
     margin-bottom: 0;
 }
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
 /* ==========HEADER STYLES========== */
 .header-container {
     display: flex;
@@ -124,10 +135,8 @@ border-bottom: 1px solid #E7E9FC;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    }
-
-.hero-container {
-    padding: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
     }
 
 .section-hero-title {
@@ -174,18 +183,7 @@ border-bottom: 1px solid #E7E9FC;
 }
 
 /* ===SECTION STRAT-TECHNOL STYLES=== */
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: 1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 
 .sec-strat-tech-list {
     display: flex;
