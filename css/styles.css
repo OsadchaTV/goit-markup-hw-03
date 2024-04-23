@@ -39,8 +39,12 @@ img {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* ==========HEADER STYLES========== */
@@ -170,7 +174,7 @@ border-bottom: 1px solid #E7E9FC;
     background-color: #404bbf;
 }
 
-/* =SECTION STRATEGY-TECHNOLOGIES STYLES= */
+/* ===SECTION STRAT-TECHNOL STYLES=== */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -184,7 +188,15 @@ border-bottom: 1px solid #E7E9FC;
     overflow: hidden;
 }
 
-.section-strat-a-tech-title {
+.sec-strat-tech-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    }
+
+.sec-strat-tech-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -192,7 +204,7 @@ border-bottom: 1px solid #E7E9FC;
     color: #2e2f42;
 }
 
-.section-strat-a-tech-text {
+.sec-strat-tech-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -213,7 +225,7 @@ border-bottom: 1px solid #E7E9FC;
     color: #2E2F42;
 }
 
-.our-team-list {
+.our-team-item {
     background-color: #ffffff;
 }
 
