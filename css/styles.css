@@ -189,14 +189,11 @@ border-bottom: 1px solid #E7E9FC;
 
 .sec-strat-tech-list {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
     gap: 24px;
     }
 
 .sec-strat-tech-list-item {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)/4);
 }
 
 .sec-strat-tech-title {
@@ -236,28 +233,17 @@ border-bottom: 1px solid #E7E9FC;
     }
 
 .sec-our-team-item {
-    align-items: center;
     border-radius: 0px 0px 4px 4px;
-    padding: 0px 0px 32px 0px;
     width: 264px;
-    height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #FFFFFF;
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)/4);
 }
 
 .sec-our-team-list-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-right: 16px;
-    margin-left: 16px;
-}
+    }
 
 .sec-our-team-list-title {
     font-weight: 500;
